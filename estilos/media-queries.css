@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 700px) and (max-width: 992px) {
+    body , html {
+        background-color: #BFBFBF;
+        height: 100vh;
+        width: 100vw;
+     
+    }
+
+    main {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+              
+    }
+
+    section#login {
+
+        background-color: white;
+        width: 600px;
+        height: 350px;
+        border-radius: 20px;
+        display: flex;
+        border: none;
+       
+        
+    }
+
+    section#login > div#imagem {
+        flex-direction: row;
+        background: url(../imagens/pexels-stijn-dijkstra-13008661.jpg);
+        height: 55vh;
+        width: 50%;
+        background-size: cover;
+        background-position: center ;
+        
+    }
+
+    
+    section#login > div#login2  {
+        padding: 20px;
+        width: 50%;
+             
+        
+
+}
+
+
+    
+}
+
+@media screen and (min-width: 700px) and (max-width: 1024) {
+    body , html {
+        background-color: #BFBFBF;
+        height: 100vh;
+        width: 100vw;
+     
+    }
+
+    main {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+              
+    }
+
+    section#login {
+
+        background-color: white;
+        width: 600px;
+        height: 350px;
+        border-radius: 20px;
+        display: flex;
+        border: none;
+       
+        
+    }
+
+    section#login > div#imagem {
+        flex-direction: row;
+        background: url(../imagens/pexels-stijn-dijkstra-13008661.jpg);
+        height: 55vh;
+        width: 50%;
+        background-size: cover;
+        background-position: center ;
+        
+    }
+
+    
+    section#login > div#login2  {
+        padding: 20px;
+        width: 50%;
+             
+        
+
+}
+
+}
